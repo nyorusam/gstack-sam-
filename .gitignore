@@ -37,3 +37,13 @@ supabase/.temp/
 
 # Throughput analysis — local-only, regenerate via scripts/garry-output-comparison.ts
 docs/throughput-*.json
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Sam Venture projects — per-project artifacts
+projects/**/node_modules/
+projects/**/.next/
+projects/**/.env
+projects/**/.env.local
+projects/**/.env.production

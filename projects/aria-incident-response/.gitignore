@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env.local
+dist/
+*.log
+.DS_Store
+conductor-*
+gstack-sam-/
+.agents/
+.mcp.json
+skills-lock.json
+utils/
